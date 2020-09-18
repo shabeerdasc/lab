@@ -23,7 +23,7 @@ struct Transition {
 int main() {
     char input[BUFF_SIZE];
     int i = 0, currentState = 0;
-
+    printf("Enter string: ");
     scanf("%s", input);
 
     printf("\nTransitions");
